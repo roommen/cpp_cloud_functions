@@ -1,5 +1,5 @@
-# gdg_devfest
-My potential talk at GDG DevFest, Bangalore
-<br/><br/>
-Exploration of Google Cloud Functions on how C and C++ code could be run, by compiling to Nodejs libraries and having it imported.<br/>
-Look at the existing repo (for AWS) and have the changes included for C along with custom tweaks required from AWS Lambda to GCF for C++.
+# Running C++ program on GCP CloudFunctions (as Node modules)
+<br/>
+Set of various sample programs that imports a custom node module compiled from C++ code. This repo contains sample progs like just printing out a value after taking it as an event argument and couple of progs that takes multiple arguments (string or int) and returning a value.
+<br/>
+README files exist under each folder to see the exact functionality in detail.
