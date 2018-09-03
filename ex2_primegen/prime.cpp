@@ -24,7 +24,6 @@ const char* Prime::genPrimes(int primeRange)
     }
 
 	string primeString;
-    // const char* primeString;
 	for (int x: primes) {
 		primeString += to_string(x);
 		primeString += ",";

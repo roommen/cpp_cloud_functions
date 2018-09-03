@@ -1,6 +1,5 @@
-exports.helloHandler = function(event, context, callback) {
-    const addon = require('./node_modules/hello');
-    var result = addon.sayName(event.name);
-    callback(null, result);
-    context.succeed(result);
+exports.namasteHandler = (req, res) => {
+    const addon = require('./namaste');
+    var result = addon.sayNamaste(req.body.str);
+    res.status(200).send(result)
 }

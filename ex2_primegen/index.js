@@ -1,6 +1,5 @@
-exports.primeHandler = function(event, context, callback) {
-    const addon = require('./node_modules/prime');
-    var result = addon.getPrimes(event.range);
-    callback(null, result);
-    context.succeed(result);
+exports.primegenHandler = (req, res) => {
+    const addon = require('./prime');
+    var result = addon.genPrimes(req.body.range);
+    res.status(200).send(result)
 }

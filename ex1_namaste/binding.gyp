@@ -1,9 +1,9 @@
-# Define the targets to be created - hello.node
+# Define the targets to be created - namaste.node
 {
 	"targets": [
 	{
-		'target_name': 'hello',
-		'sources': [ 'mainSayHello.cpp', 'sayHello.cpp' ]
+		'target_name': 'namaste',
+		'sources': [ 'mainSayNamaste.cpp', 'sayNamaste.cpp' ]
 	}
 	]
 }

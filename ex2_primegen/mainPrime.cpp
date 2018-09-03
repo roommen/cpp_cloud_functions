@@ -11,7 +11,7 @@ void wrapperPrimes(const FunctionCallbackInfo<Value>& args) {
 }
 
 void init(Local<Object> exports) {
-	NODE_SET_METHOD(exports, "getPrimes", wrapperPrimes);
+	NODE_SET_METHOD(exports, "genPrimes", wrapperPrimes);
 }
 
 /* The entry point to initialize the prime.node module */

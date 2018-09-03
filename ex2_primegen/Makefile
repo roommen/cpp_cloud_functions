@@ -1,4 +1,4 @@
-NODENAME = namaste.node
+NODENAME = prime.node
 NAME = index
 JSNAME = $(NAME).js
 
